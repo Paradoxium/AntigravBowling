@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+/// <summary>
+/// Score keeper. Place on the Canvas GameObject. Keeps track of score in the game, has public function to add point to score.
+/// Updates the score text with the new score.
+/// </summary>
 public class ScoreKeeper : MonoBehaviour {
 
 	//assign text object in inspector

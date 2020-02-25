@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Firing. Applies a force to a GameObject. Assign values in the inspector. Can move the ball on the X/Y
+/// Axis to aim. Launches Ball along the Z axis.
+/// </summary>
 public class Firing : MonoBehaviour {
 
 	//variables
